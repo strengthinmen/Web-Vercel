@@ -130,13 +130,12 @@ export default function HomePage() {
             <p className="section-label">READY TO START?</p>
             <h2>Download StrengthInMen and begin your rebuild.</h2>
             <p>
-              Replace the links below with your App Store link, Android link, Gumroad PDFs,
-              email list, or coaching offer.
+              Start with the iPhone app or grab the 21-Day Strength Reset on Gumroad.
             </p>
           </div>
           <div className="button-row">
-            <a className="button button-primary" href="https://apps.apple.com/" target="_blank" rel="noreferrer">App Store</a>
-            <a className="button button-secondary" href="https://strengthinmen.com" target="_blank" rel="noreferrer">Website / Waitlist</a>
+            <a className="button button-primary" href="https://apps.apple.com/us/app/strengthinmen/id6747904090" target="_blank" rel="noreferrer">Download on the App Store</a>
+            <a className="button button-secondary" href="https://strengthinmen.gumroad.com/l/21-DayMenMentalReset" target="_blank" rel="noreferrer">Get the 21-Day Reset PDF</a>
           </div>
         </div>
       </section>
