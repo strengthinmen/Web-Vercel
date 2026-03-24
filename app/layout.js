@@ -1,8 +1,9 @@
-import './globals.css';
-
 export const metadata = {
-  title: 'StrengthInMen',
-  description: 'Strength for men rebuilding their lives with structure, motivation, and real support.',
+  title: "StrengthInMen",
+  description: "For men rebuilding their lives.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
