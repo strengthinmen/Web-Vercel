@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "StrengthInMen",
   description: "For men rebuilding their lives.",
