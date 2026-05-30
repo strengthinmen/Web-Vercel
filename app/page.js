@@ -207,7 +207,7 @@ export default async function Home() {
           <a href="https://blog.strengthinmen.com" rel="noopener noreferrer">Blog</a>
           <a href="/reset">21-Day Reset</a>
           <a href="https://apps.apple.com/us/app/strengthinmen/id6747904090" rel="noopener noreferrer">iOS App</a>
-          <a href="https://www.tiktok.com/@strengthinmen" rel="noopener noreferrer">TikTok</a>
+          <a href="https://www.tiktok.com/@strength.in.men7" rel="noopener noreferrer">TikTok</a>
         </nav>
         <p className="footer-copy">
           © {new Date().getFullYear()} StrengthInMen LLC · Built for men rebuilding after divorce.
