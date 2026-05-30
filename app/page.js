@@ -71,9 +71,8 @@ export default async function Home() {
           </a>
           <a
             className="btn btn-secondary"
-            href="https://strengthinmen.gumroad.com/l/21-DayMenMentalReset"
-            rel="noopener noreferrer"
-            aria-label="Get the 21-Day Men's Mental Reset guide"
+            href="/reset"
+            aria-label="Learn about the 21-Day Men's Mental Reset"
           >
             Start Your 21-Day Reset
           </a>
@@ -177,9 +176,8 @@ export default async function Home() {
         </p>
         <a
           className="btn btn-primary"
-          href="https://strengthinmen.gumroad.com/l/21-DayMenMentalReset"
-          rel="noopener noreferrer"
-          aria-label="Get the 21-Day Men's Mental Reset guide on Gumroad"
+          href="/reset"
+          aria-label="Learn about the 21-Day Men's Mental Reset guide"
         >
           Get the 21-Day Reset — $9
         </a>
@@ -207,7 +205,7 @@ export default async function Home() {
         <div className="footer-brand">StrengthInMen</div>
         <nav className="footer-links" aria-label="Footer navigation">
           <a href="https://blog.strengthinmen.com" rel="noopener noreferrer">Blog</a>
-          <a href="https://strengthinmen.gumroad.com/l/21-DayMenMentalReset" rel="noopener noreferrer">21-Day Reset</a>
+          <a href="/reset">21-Day Reset</a>
           <a href="https://apps.apple.com/us/app/strengthinmen/id6747904090" rel="noopener noreferrer">iOS App</a>
           <a href="https://www.tiktok.com/@strengthinmen" rel="noopener noreferrer">TikTok</a>
         </nav>

@@ -24,6 +24,12 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 1.0,
     },
+    {
+      url: `${baseUrl}/reset`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     // ── Add pages below as you build them ──────────────────────────────────
     // {
     //   url: `${baseUrl}/about`,
