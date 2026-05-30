@@ -194,3 +194,332 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* ── RESET PAGE STYLES ── add these to globals.css ── */
+
+.reset-shell {
+  background: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+/* ── HERO ── */
+.reset-hero {
+  padding: 100px 20px 80px;
+  text-align: center;
+  background: radial-gradient(ellipse at top, #111 0%, #000 70%);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.reset-eyebrow {
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin-bottom: 16px;
+}
+
+.reset-hero h1 {
+  font-size: clamp(64px, 12vw, 120px);
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin: 0 0 8px;
+  line-height: 1;
+  background: linear-gradient(135deg, #fff 60%, #888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.reset-subtitle {
+  font-size: clamp(16px, 3vw, 22px);
+  opacity: 0.7;
+  margin: 0 0 28px;
+  font-weight: 400;
+}
+
+.reset-hero-copy {
+  font-size: 18px;
+  opacity: 0.8;
+  max-width: 520px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.reset-btn-primary {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 16px 36px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.reset-btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.reset-btn-large {
+  padding: 20px 48px;
+  font-size: 18px;
+  border-radius: 14px;
+}
+
+.reset-sub-note {
+  font-size: 13px;
+  opacity: 0.35;
+  margin-top: 16px;
+}
+
+/* ── DIVIDER ── */
+.reset-divider {
+  text-align: center;
+  padding: 24px 20px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.25;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ── SECTIONS ── */
+.reset-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 72px 24px;
+  text-align: center;
+}
+
+.reset-section h2 {
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 800;
+  margin: 0 0 12px;
+  letter-spacing: -0.5px;
+}
+
+.reset-section-sub {
+  opacity: 0.5;
+  font-size: 15px;
+  margin: 0 0 40px;
+}
+
+.reset-dark-card {
+  background: rgba(255,255,255,0.03);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  max-width: 100%;
+  padding: 72px 20px;
+}
+
+.reset-dark-card > * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── WHO GRID ── */
+.reset-who-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 40px 0 32px;
+  text-align: left;
+}
+
+.reset-who-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reset-who-icon {
+  font-size: 28px;
+}
+
+.reset-who-card p {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.reset-built-by {
+  opacity: 0.4;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 16px;
+}
+
+/* ── DAILY GRID ── */
+.reset-daily-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 40px auto;
+  max-width: 560px;
+  text-align: left;
+}
+
+.reset-daily-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.reset-daily-num {
+  font-size: 36px;
+  font-weight: 900;
+  opacity: 0.15;
+  line-height: 1;
+  min-width: 48px;
+}
+
+.reset-daily-item strong {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.reset-daily-item p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.reset-no-fluff {
+  opacity: 0.4;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* ── FIXES GRID ── */
+.reset-fixes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.reset-fix-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  padding: 28px 24px;
+}
+
+.reset-fix-card h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.reset-fix-card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ── WHY CHAIN ── */
+.reset-why-copy {
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 480px;
+  margin: 0 auto 32px;
+}
+
+.reset-chain {
+  margin: 32px auto;
+  max-width: 700px;
+}
+
+.reset-chain-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: clamp(14px, 2.5vw, 18px);
+}
+
+.reset-chain-item strong {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+.reset-chain-item span {
+  opacity: 0.3;
+  font-size: 20px;
+}
+
+/* ── GET LIST ── */
+.reset-get-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto 0;
+  max-width: 480px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reset-get-list li {
+  font-size: 16px;
+  opacity: 0.85;
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+/* ── FINAL CTA ── */
+.reset-final {
+  text-align: center;
+  padding: 80px 20px 100px;
+  background: radial-gradient(ellipse at bottom, #111 0%, #000 70%);
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.reset-final h2 {
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 800;
+  margin: 0 0 16px;
+  letter-spacing: -0.5px;
+}
+
+.reset-final-copy {
+  opacity: 0.65;
+  font-size: 17px;
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 600px) {
+  .reset-fixes-grid {
+    grid-template-columns: 1fr;
+  }
+  .reset-chain-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .reset-chain-item span {
+    transform: rotate(90deg);
+  }
+}

@@ -42,7 +42,7 @@ export default async function Home() {
         <a className="nav-brand" href="/">StrengthInMen</a>
         <nav aria-label="Site navigation">
           <a className="nav-link" href="https://blog.strengthinmen.com" rel="noopener noreferrer">Blog</a>
-          <a className="nav-link" href="https://strengthinmen.gumroad.com/l/21-DayMenMentalReset" rel="noopener noreferrer">21-Day Reset</a>
+          <a className="nav-link" href="/reset">21-Day Reset</a>
           <a className="nav-link nav-cta" href="https://apps.apple.com/us/app/strengthinmen/id6747904090" rel="noopener noreferrer">Get the App</a>
         </nav>
       </header>
